@@ -12,8 +12,7 @@
 # getting up and running with a *real* Django project quickly and
 # easily.
 #
-# Use this project for anything you like, fork it, modify it, whataver
-# you like!
+# Use this project for anything you like, fork it, modify it etc.
 
 function help {
     echo "Usage: `basename $0` <project_name> <dirname>"
@@ -107,4 +106,5 @@ echo "  1. Set the ADMINS variable in "$project_dir"/settings to include your na
 echo "  2. I've not added the PROJECT_DIR setting yet, so this will need to be set"
 echo "  3. If you aren't using sqlite then the database settings will need changing"
 echo "  4. The STATICFILES settings are not customised yet"
+echo "  5. This project is already tracked in git but yuo may wish to add your own remotes"
 echo "Good luck!"
